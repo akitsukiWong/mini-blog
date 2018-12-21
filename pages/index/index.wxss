@@ -1,0 +1,25 @@
+.list {
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+  margin: 0 auto;
+}
+
+.list .h1 {
+  color: #777;
+  font-size: 40rpx;
+  line-height: 60rpx;
+  white-space:nowrap; 
+}
+
+.list .h2 {
+  width: 100%;
+  text-indent: 2em;
+  color: #999;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

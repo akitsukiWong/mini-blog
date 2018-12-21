@@ -1,0 +1,8 @@
+
+<!-- <text wx:for="{{blogList}}" >
+  {{item.title}}
+</text> -->
+
+<view>
+{{blogList[id].text}}
+</view>

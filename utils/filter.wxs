@@ -1,0 +1,11 @@
+var filters = {
+  //字数限制
+  toFix: function (value1, value2) {
+    var num = value1 + value2;
+    return num.toFixed(2)
+  }
+}
+
+module.exports = {
+  toFix: filters.toFix
+}

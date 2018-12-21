@@ -1,0 +1,7 @@
+<wxs module="filter" src="../../utils/filter.wxs"></wxs>
+<view class='wrap'>
+  <view class='list' wx:for="{{blogList}}" data-index='{{index}}' bindtap='toDetail' wx:key="id"> 
+    <text class='h1'>{{item.title}}</text>
+    <text class='h2'>{{item.text}}</text>
+  </view>
+</view>
